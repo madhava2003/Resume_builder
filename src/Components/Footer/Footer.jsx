@@ -8,7 +8,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from "@chakra-ui/react";
-import { FaInstagram, FaSnapchat, FaGithub } from "react-icons/fa";
+// import { FaInstagram, FaSnapchat, FaGithub } from "react-icons/fa";
 import logo from "./../../Assets/logo.png";
 
 const SocialButton = ({ children, label, href }) => {
@@ -53,7 +53,7 @@ export default function Footer() {
       >
         <Image style={{ height: "44px" }} src={logo} alt="logo" />
         <Text>© 2023 Resume Builder</Text>
-        <Text>Made by : T K S Chaitanya</Text>
+        <Text>Made by : Madhava AB</Text>
       </Container>
     </Box>
   );
